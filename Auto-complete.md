@@ -24,6 +24,8 @@ import { Ng2CompleterModule } from "ng2-completer";
 ```ts 
 import { CompleterService, CompleterData } from 'ng2-completer';
 
+public dataService: CompleterData;
+
 constructor(private completerService: CompleterService) {
   
 }
